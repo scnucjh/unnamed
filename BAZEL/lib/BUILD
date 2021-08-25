@@ -3,4 +3,5 @@ cc_library(
     srcs = ["hello-greet.cc"],
     hdrs = ["hello-greet.h"],
     visibility = ["//main:__pkg__"],
+    includes = ['.'],
 )
